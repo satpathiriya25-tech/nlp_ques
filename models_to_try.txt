@@ -1,0 +1,7 @@
+1. https://pyquesthub.com/comprehensive-guide-to-multi-class-text-classification-using-python
+2. https://www.geeksforgeeks.org/nlp/text-classification-using-scikit-learn-in-nlp/
+3. https://www.datacamp.com/tutorial/text-classification-python
+
+Try these (with `nltk`) first... 
+    If any one of these work, then fine 
+    Else we'll find other models to try.
