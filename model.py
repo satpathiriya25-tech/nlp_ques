@@ -116,7 +116,7 @@ X = tfidf_vectorizer.fit_transform(df['cleaned_text']).toarray()
 
 y = df['target']
 
-print(X.shape, y.shape)
+#print(X.shape, y.shape)
 
 # Split the data into training and testing sets
 
@@ -139,7 +139,7 @@ y_pred = model.predict(X_test)
 
 # Generate the classification report
 
-print(classification_report(y_test, y_pred))
+#print(classification_report(y_test, y_pred))
 
 
 # Create the confusion matrix
@@ -178,7 +178,7 @@ def predict_passage(question):
     return passage_titles[pred_class]
 
 # --- Example usage ---
-new_question = "Where was Buster found?"
-print("Predicted passage:", predict_passage('Under which tree did the family sit for their picnic?'))
+new_question = 'Under which tree did the family sit for their picnic?'
+print("Predicted passage:", predict_passage('Under which tree did the family sit for their picnic?'s))
 
 
